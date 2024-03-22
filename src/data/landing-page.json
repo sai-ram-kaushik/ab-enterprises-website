@@ -1,0 +1,28 @@
+{
+  "homePage": {
+    "subTitle": "Gifting Excellence",
+    "title": "AB Enterprises Personalizes Perfection.",
+    "content": "AB Enterprises specializes in premium corporate gifting, offering customized solutions for clients, employees, and partners. With a focus on excellence and personalized service, they deliver top-tier products tailored to meet individual requirements.",
+    "buttonTitle": "Explore",
+    "image": "/gift.svg"
+  },
+
+  "ourServices": {
+    "title": "Our Services",
+    "services": [
+      { "label": "Wedding Planner", "image": "/wedding.png" },
+      { "label": "Custom Gifts", "image": "/gifting.png" },
+      { "label": "Music Concerts", "image": "/music-dance.png" }
+    ]
+  },
+
+  "categories": {
+    "title": "Our Categories",
+    "ourCategory": [
+      { "label": "Personalised Gifts", "image": "/personalise-gifts.png" },
+      { "label": "Flower Bouquet", "image": "/flower-gifts.png" },
+      { "label": "Corporate Gifts", "image": "/corporate-gifts.png" },
+      { "label": "Gifts", "image": "/gifts.png" }
+    ]
+  }
+}
