@@ -1,0 +1,16 @@
+{
+  "about": {
+    "title": "About Us",
+    "content": "AB Enterprises specializes in premium corporate gifting, providing customized solutions for clients, employees, and partners, delivering top-tier products with excellence and personalized service.",
+    "stats": [
+      { "label": "Music Concerts", "count": "146+" },
+      { "label": "Corporate Events", "count": "125+" },
+      { "label": "Event Nailed", "count": "594+" },
+      { "label": "Exclusive Gifts", "count": "82+" }
+    ],
+    "team": [
+      { "name": "Arjun Bhardwaj", "image": "/arjun_pic.png" },
+      { "name": "Swati Sharma", "image": "swati-pic.png" }
+    ]
+  }
+}

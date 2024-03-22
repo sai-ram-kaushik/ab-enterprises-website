@@ -12,3 +12,12 @@ export const socials = [
   { label: "Linkedin", icon: <FaLinkedinIn /> },
   { label: "Twitter", icon: <FaXTwitter /> },
 ];
+
+export const gallery = [
+  { image: "/gallery/1.jpg" },
+  { image: "/gallery/2.jpg" },
+  { image: "/gallery/3.jpg" },
+  { image: "/gallery/4.jpg" },
+  { image: "/gallery/5.jpg" },
+  { image: "/gallery/6.jpg" },
+];

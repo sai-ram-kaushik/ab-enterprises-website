@@ -24,5 +24,34 @@
       { "label": "Corporate Gifts", "image": "/corporate-gifts.png" },
       { "label": "Gifts", "image": "/gifts.png" }
     ]
+  },
+
+  "testimonials": {
+    "title": "Testimonials",
+    "testimonial": [
+      {
+        "name": "John",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae!",
+        "image": "/images.png"
+      },
+
+      {
+        "name": "John",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae!",
+        "image": "/images.png"
+      },
+
+      {
+        "name": "John",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae!",
+        "image": "/images.png"
+      },
+
+      {
+        "name": "John",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae!",
+        "image": "/images.png"
+      }
+    ]
   }
 }
