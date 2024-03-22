@@ -13,6 +13,16 @@ export default {
         heading: "Odor Mean Chey",
         bodyContent: "Poppins",
       },
+
+      animation: {
+        translateAnimate: "translateKeyframe 1.5s ease-in infinite",
+      },
+      keyframes: {
+        translateKeyframe: {
+          "0%, 100px": { transform: "translate(3px, -3px)" },
+          "50%": { transform: "translate(3px, -3px)" },
+        },
+      },
     },
   },
   plugins: [require("daisyui")],

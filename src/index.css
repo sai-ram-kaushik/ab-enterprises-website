@@ -20,7 +20,7 @@ html {
   }
 
   h1 {
-    @apply text-3xl lg:text-4xl font-heading font-bold;
+    @apply text-3xl lg:text-4xl xl:text-6xl font-heading font-bold;
   }
 
   h2 {

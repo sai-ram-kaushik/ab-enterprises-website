@@ -44,7 +44,7 @@ const Navbar = () => {
         }
       >
         <Link to="/">
-          <h2 className="text-background">
+          <h2 className="text-background" onClick={handleChange}>
             AB <span>Enterprises</span>
           </h2>
         </Link>
