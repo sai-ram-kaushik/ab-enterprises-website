@@ -6,7 +6,7 @@ const About = () => {
   const { title, content, stats, team } = data.about;
   return (
     <>
-      <div className="w-full">
+      <div className="w-full px-5 lg:px-10">
         <TransitionEffect />
         <div className="flex flex-col gap-2 items-center justify-center py-10">
           <h2>{title}</h2>
