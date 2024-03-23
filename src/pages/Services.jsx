@@ -5,7 +5,7 @@ import TransitionEffect from "../components/TransitionEffect";
 const Services = () => {
   const { title, services, subTitle, content, image } = data.ourServices;
   return (
-    <div className="w-full">
+    <div className="w-full px-5 lg:px-10">
       <TransitionEffect />
       <div className="flex items-center justify-center">
         <h2>{title}</h2>
