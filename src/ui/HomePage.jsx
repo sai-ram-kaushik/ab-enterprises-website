@@ -33,7 +33,7 @@ const HomePage = ({ homePage }) => {
       <TransitionEffect />
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 w-full md:h-[80vh]">
         <div className="bg-secondary w-full h-full px-5 lg:px-10 rounded-tr-[200px] md:rounded-tr-[400px] rounded-br-[100px] shadow-xl">
-          <div className="flex flex-col items-start justify-center w-full h-full gap-3 py-10 text-background">
+          <div className="flex flex-col items-start justify-center w-full h-full gap-3 py-10 text-black">
             <p>{subTitle}</p>
             <h1>{title}</h1>
             <p>{content}</p>
@@ -47,8 +47,8 @@ const HomePage = ({ homePage }) => {
             src={image}
             alt="background"
             className="animate-translateAnimate"
-            width={600}
-            height={600}
+            width={500}
+            height={500}
           />
         </div>
       </div>

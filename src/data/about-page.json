@@ -8,9 +8,6 @@
       { "label": "Event Nailed", "count": "594+" },
       { "label": "Exclusive Gifts", "count": "82+" }
     ],
-    "team": [
-      { "name": "Arjun Bhardwaj", "image": "/arjun_pic.png" },
-      { "name": "Swati Sharma", "image": "swati-pic.png" }
-    ]
+    "team": [{ "name": "Arjun Bhardwaj", "image": "/arjun_pic.png" }]
   }
 }

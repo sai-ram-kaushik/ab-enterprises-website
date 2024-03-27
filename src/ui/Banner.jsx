@@ -14,7 +14,7 @@ const Banner = () => {
           backgroundPosition: "center",
         }}
       ></div>
-      <div className="relative z-10 flex flex-col gap-3 items-center justify-center h-full text-white">
+      <div className="relative z-10 flex flex-col gap-3 items-center justify-center h-full text-background">
         <h2>Wedding Planner</h2>
         <p className="text-center">Sprinkle Some Memorable Moments In Your Weeding</p>
         <Button title="Organize Wedding" />
