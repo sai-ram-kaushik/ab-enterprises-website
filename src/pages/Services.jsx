@@ -20,7 +20,7 @@ const Services = () => {
         <img src={image} width={450} height={450} />
       </div>
 
-      <div className="mt-10 grid grid-cols-2 md:grid-cols-4  items-center justify-center">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-4  items-center justify-center">
         {services.map((service, index) => {
           return (
             <div
