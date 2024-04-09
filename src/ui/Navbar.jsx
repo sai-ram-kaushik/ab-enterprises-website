@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between h-full">
         <Link to="/">
           <h2>
-            AB <span>Enterprises</span>
+            A<span>.</span>B<span>.</span> <span>Enterprises</span>
           </h2>
         </Link>
 

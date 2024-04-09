@@ -1,4 +1,9 @@
-import { FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaXTwitter,
+  FaWhatsapp,
+} from "react-icons/fa6";
 export const menuList = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
@@ -8,6 +13,7 @@ export const menuList = [
 ];
 
 export const socials = [
+  { label: "Whatsapp", icon: <FaWhatsapp /> },
   { label: "Instagram", icon: <FaInstagram /> },
   { label: "Linkedin", icon: <FaLinkedinIn /> },
   { label: "Twitter", icon: <FaXTwitter /> },

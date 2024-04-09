@@ -10,7 +10,7 @@ export default {
       },
 
       fontFamily: {
-        heading: "Odor Mean Chey",
+        heading: "Volkhov",
         bodyContent: "Poppins",
       },
 

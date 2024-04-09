@@ -47,8 +47,8 @@ const HomePage = ({ homePage }) => {
             src={image}
             alt="background"
             className="animate-translateAnimate"
-            width={500}
-            height={500}
+            width={650}
+            height={650}
           />
         </div>
       </div>
@@ -61,7 +61,7 @@ const HomePage = ({ homePage }) => {
           }}
           transition={{ duration: 0.5 }}
         >
-          <Services ourServices={data.ourServices} />
+          <Services />
         </motion.div>
       </div>
 
@@ -89,7 +89,7 @@ const HomePage = ({ homePage }) => {
         </motion.div>
       </div>
 
-      <Testimonials testimonials={data.testimonials} />
+      {/* <Testimonials testimonials={data.testimonials} /> */}
     </div>
   );
 };

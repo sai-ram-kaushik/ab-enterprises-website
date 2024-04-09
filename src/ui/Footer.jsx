@@ -33,18 +33,26 @@ const Footer = () => {
             <p className="font-bold text-primary">Contact Us</p>
             <div className="flex flex-col items-start gap-2">
               <div className="flex items-center gap-2">
-                <IoMdMail size={15} />
-                <p>support@abenterprizes.com</p>
+                <IoMdMail size={15} className="text-secondary" />
+                <a href="mailto:support@abenterprises.com">
+                  <p>support@abenterprises.com</p>
+                </a>
               </div>
 
-              <div className="flex items-center gap-2">
-                <FaPhoneAlt size={15} />
-                <p>+91 9999999999</p>
+              <div className="flex items-start gap-2">
+                <FaPhoneAlt size={15} className="text-secondary" />
+                <div className="flex flex-col items-start">
+                  <p>+91 8527888015</p>
+                  <p>+91 8527888015</p>
+                </div>
               </div>
 
-              <div className="flex items-center gap-2">
-                <FaLocationDot size={15} />
-                <p>Gurgaon, India</p>
+              <div className="flex items-start gap-2">
+                <FaLocationDot size={35} className="text-secondary" />
+                <p>
+                  A.B. Enterprises, 1001, Tower1, DLF Corporate Greens, Sec
+                  74(A), Gurgaon, Haryana, 122001
+                </p>
               </div>
             </div>
           </div>
@@ -68,7 +76,7 @@ const Footer = () => {
               return (
                 <div
                   key={index}
-                  className="bg-primary rounded-full text-background p-2 cursor-pointer hover:text-secondary duration-500"
+                  className="bg-primary rounded-full text-background p-2 cursor-pointer duration-500"
                 >
                   <div>{social.icon}</div>
                 </div>
