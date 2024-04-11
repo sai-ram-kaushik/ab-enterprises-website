@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between h-full">
         <Link to="/">
           <h2>
-            A<span>.</span>B<span>.</span> <span>Enterprises</span>
+            A.B. <span>Enterprises</span>
           </h2>
         </Link>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
       >
         <Link to="/">
           <h2 className="text-background" onClick={handleChange}>
-            AB <span>Enterprises</span>
+            AB Enterprises
           </h2>
         </Link>
 

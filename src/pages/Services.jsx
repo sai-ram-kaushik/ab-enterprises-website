@@ -20,15 +20,15 @@ const Services = () => {
         <img src={image} width={450} height={450} />
       </div>
 
-      <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-10  items-center justify-center">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-4 gap-10  items-center justify-center">
         {services.map((service, index) => {
           return (
             <div
               key={index}
-              className="flex flex-col items-center gap-1 cursor-pointer py-5 "
+              className="flex flex-col items-center gap-1 cursor-pointer py-5"
             >
               <img src={service.image} width={250} height={250} className="rounded-md   border-2 border-yellow-500 " />
-              <h3>{service.label}</h3>
+              <h3 className="max-w-[600px]">{service.label}</h3>
             </div>
           );
         })}

@@ -47,8 +47,8 @@ const HomePage = ({ homePage }) => {
             src={image}
             alt="background"
             className="animate-translateAnimate"
-            width={650}
-            height={650}
+            width={550}
+            height={550}
           />
         </div>
       </div>

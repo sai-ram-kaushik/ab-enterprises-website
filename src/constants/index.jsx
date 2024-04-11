@@ -20,10 +20,12 @@ export const socials = [
 ];
 
 export const gallery = [
-  { image: "/gallery/1.jpg" },
-  { image: "/gallery/2.jpg" },
-  { image: "/gallery/3.jpg" },
-  { image: "/gallery/4.jpg" },
-  { image: "/gallery/5.jpg" },
-  { image: "/gallery/6.jpg" },
+  { image: "/gallery/1.jpeg" },
+  { image: "/gallery/2.jpeg" },
+  { image: "/gallery/3.jpeg" },
+  { image: "/gallery/4.jpeg" },
+  { image: "/gallery/5.jpeg" },
+  { image: "/gallery/9.jpeg" },
+  { image: "/gallery/10.jpeg" },
+  { image: "/gallery/11.jpeg" },
 ];

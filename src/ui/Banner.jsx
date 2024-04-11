@@ -5,18 +5,9 @@ import background from "/background.png";
 const Banner = () => {
   return (
     <div className="w-full h-[25vh] bg-primary relative">
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${background})`,
-          opacity: "0.5", // Adjust opacity as needed
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      ></div>
       <div className="relative z-10 flex flex-col gap-3 items-center justify-center h-full text-background">
         <h2>In House Products</h2>
-        <p className="text-center">Bagpacks/messanger packs/laptop sleeves</p>
+        <p className="text-center">Bagpacks/Messenger bags/Laptop sleeves</p>
         {/* <Button title="Organize Wedding" /> */}
       </div>
     </div>

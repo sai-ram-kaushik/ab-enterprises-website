@@ -2,12 +2,16 @@
   "ourServices": {
     "title": "Our Services",
     "services": [
-      { "label": "Customized Gifts", "image": "/customized gifts.jpeg" },
-      { "label": "Premium Gift Hampers", "image": "/premium.jpeg" },
-      { "label": "Corporate Merchandise", "image": "/corporate.jpeg" },
+      { "label": "Customized Gifts Solution", "image": "/customized gifts.jpeg" },
+      { "label": "Branding Options for gifts", "image": "/brand.png" },
+      { "label": "Curated gift selection", "image": "/premium.jpeg" },
+      { "label": "Bulk Ordering & fulfillment", "image": "/corporate.jpeg" },
       { "label": "Employee Recognition", "image": "/OIG3.jpeg" },
-      { "label": "Festive Gifts", "image": "/festive.jpeg" },
-      { "label": "Executive Gifts", "image": "/excutive.jpeg" }
+      { "label": "Festivals Gifts", "image": "/festive.jpeg" },
+      { "label": "Corporate event gifting", "image": "/excutive.jpeg" },
+      { "label": "Seasonal & holiday gifting", "image": "/seasonal.png" },
+      { "label": "Gift tracking & management", "image": "/tracking.png" },
+      { "label": "Office Supplies & Management", "image": "/categories/office.png" }
     ],
     "subTitle": "Play Around With Perfection On All Occasions",
     "content": "Always find a partner with whom you can take all the ups and downs. AB Enterprises is the fellow who takes care of all the events smoothly. Our magic is our creativity, planning, and execution of your corporate, social, small, and significant events. We are here to make the occasion fascinating.",

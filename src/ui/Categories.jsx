@@ -8,12 +8,13 @@ const Categories = ({ categories }) => {
         <h2>{title}</h2>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center gap-6 mt-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center mt-10">
+        {/* Added justify-center to align categories in the center */}
         {ourCategory.map((category, index) => {
             return(
                 <div key={index} className="flex flex-col items-center gap-2 cursor-pointer">
-                    <img src={category.image} width={250} height={250} />
-                    <h3>{category.label}</h3>
+                    <img src={category.image} alt={category.label} width={250} height={250} className="rounded-2xl" />
+                    <h3 className="text-center">{category.label}</h3>
                 </div>
             )
         })}

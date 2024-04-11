@@ -9,20 +9,24 @@ const Services = () => {
         <h2>{title}</h2>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-center justify-center mt-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-start justify-center mt-10">
+        {/* Changed items-center to items-start */}
         {services.map((service, index) => {
           return (
             <div
               key={index}
-              className="flex flex-col items-center gap-1 cursor-pointer py-5 "
+              className="flex flex-col items-center gap-1 cursor-pointer py-5"
             >
               <img
                 src={service.image}
+                alt={service.label}
                 width={250}
                 height={250}
-                className="rounded-md   border-2 border-yellow-500 "
+                className="rounded-md border-2 border-yellow-500"
               />
-              <h3 className="text-center">{service.label}</h3>
+              <h3 className="text-center text-2xl max-w-[250px]">
+                {service.label}
+              </h3>
             </div>
           );
         })}

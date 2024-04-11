@@ -7,22 +7,31 @@
     "image": "/bg2.png"
   },
 
-  "ourServices": {
-    "title": "Our Services",
-    "services": [
-      { "label": "Wedding Planner", "image": "/wedding.png" },
-      { "label": "Custom Gifts", "image": "/gifting.png" },
-      { "label": "Music Concerts", "image": "/music-dance.png" }
-    ]
-  },
 
   "categories": {
     "title": "Our Categories",
     "ourCategory": [
-      { "label": "Personalised Gifts", "image": "/personalise-gifts.png" },
-      { "label": "Flower Bouquet", "image": "/flower-gifts.png" },
-      { "label": "Corporate Gifts", "image": "/corporate-gifts.png" },
-      { "label": "Gifts", "image": "/gifts.png" }
+      { "label": "Electronics", "image": "/categories/electronics.png" },
+      {
+        "label": "Stationary / Office Accessories",
+        "image": "/categories/office.png"
+      },
+      { "label": "Drinkware", "image": "/categories/drinkware.png" },
+      { "label": "Gift Hamper", "image": "/categories/gifthamper.png" },
+      { "label": "Bags (All Categories)", "image": "/gallery/1.jpeg" },
+      { "label": "Customised Gifts", "image": "/categories/customised.png" },
+      {
+        "label": "Festive Gifts / Occasional Gifts",
+        "image": "/categories/festive.png"
+      },
+      {
+        "label": "Joining Kit",
+        "image": "/categories/joining.png"
+      },
+      {
+        "label": "Office Supplies",
+        "image": "/categories/supplies.png"
+      }
     ]
   },
 

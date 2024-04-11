@@ -36,12 +36,15 @@ const About = () => {
           <img src={arjun} width={250} height={250} className="" />
           <h3 className="text-secondary">Arjun Bhardwaj</h3>
           <p className="max-w-[800px] text-justify">
-            Arjun Bhardwaj, visionary of AB Enterprises, boasts over a decade of
-            procurement expertise, shaping the company into a leader in
-            corporate gifting and supplies. With a commitment to excellence,
-            Arjun delivers tailored solutions, ensuring every client receives
-            unparalleled service. His journey epitomizes a legacy of quality and
-            innovation in the industry.
+            Meet Arjun Bhardwaj, the visionary behind AB Enterprises, a seasoned
+            professional with over a decade of expertise in procurement. With a
+            keen understanding of industry dynamics and a passion for
+            excellence, Arjun has cultivated AB Enterprises into a leading name
+            in corporate gifting and supplies. His wealth of experience and
+            commitment to delivering unparalleled quality ensure that every
+            client receives exceptional service and tailored solutions to meet
+            their needs. Join us as we explore the journey of Arjun Bhardwaj and
+            the legacy he continues to build through AB Enterprises.
           </p>
         </div>
       </div>
