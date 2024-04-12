@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 items-center gap-5 lg:gap-16">
           <div className="flex flex-col items-start gap-3">
             <h3>
-              A<span>.</span>B<span>.</span> <span>Enterprises</span>
+              A.B. <span>Enterprises</span>
             </h3>
             {/* <p>
               AB Enterprises specializes in premium corporate gifting, providing
@@ -56,9 +56,7 @@ const Footer = () => {
 
               <div className="flex items-start gap-2">
                 <FaLocationDot size={20} className="text-secondary" />
-                <p>
-                  DLF Corporate Greens, Sec 74(A), Gurgaon, Haryana, 122001
-                </p>
+                <p>DLF Corporate Greens, Sec 74(A), Gurgaon, Haryana, 122001</p>
               </div>
             </div>
           </div>

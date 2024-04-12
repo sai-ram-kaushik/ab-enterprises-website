@@ -28,4 +28,6 @@ export const gallery = [
   { image: "/gallery/9.jpeg" },
   { image: "/gallery/10.jpeg" },
   { image: "/gallery/11.jpeg" },
+  // { image: "/gallery/electronics.webp" },
+  // { image: "/gallery/watch.webp" },
 ];

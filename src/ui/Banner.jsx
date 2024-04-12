@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="w-full h-[25vh] bg-primary relative">
       <div className="relative z-10 flex flex-col gap-3 items-center justify-center h-full text-background">
         <h2>In House Products</h2>
-        <p className="text-center">Bagpacks/Messenger bags/Laptop sleeves</p>
+        <p className="text-center">Bagpacks/Messenger bags/Laptop sleeves/Duffle bags</p>
         {/* <Button title="Organize Wedding" /> */}
       </div>
     </div>
