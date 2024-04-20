@@ -3,7 +3,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import TransitionEffect from "../components/TransitionEffect";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xqkrdjle");
+  const [state, handleSubmit] = useForm("mkndkbry");
   if (state.succeeded) {
     return <p>Thanks for Submitting</p>;
   }
