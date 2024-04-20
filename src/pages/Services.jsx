@@ -28,7 +28,7 @@ const Services = () => {
               className="flex flex-col items-center gap-1 cursor-pointer py-5"
             >
               <img src={service.image} width={250} height={250} className="rounded-md   border-2 border-yellow-500 " />
-              <h3 className="max-w-[600px]">{service.label}</h3>
+              <h3 className="max-w-[600px] text-center">{service.label}</h3>
             </div>
           );
         })}
